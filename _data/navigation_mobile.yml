@@ -1,5 +1,4 @@
 # Mobile menu navigation links
-
 - title: Home
   url: /
 
@@ -9,9 +8,10 @@
 - title: Blog
   url: /blog/
 
-- title: Changelog
-  url: /changelog-timeline/
+- title: Find an Estate Planning Attorney
+  url: /
+  button: primary-outline
 
-- title: Contact
+- title: Contact Us
   url: /contact/
   button: success

@@ -1,5 +1,4 @@
 # Navbar left menu navigation links
-
 left:
   - title: Home
     url: /
@@ -10,29 +9,18 @@ left:
   - title: Blog
     url: /blog/
 
-  - title: Changelogs
-    dropdown:
-
-      - title: Timeline Style
-        url: /changelog-timeline/
-
-      - title: Post Style
-        url: /changelog-posts/
-
-
 # Navbar right menu navigation links
-
 right:
 
-  - title: Changelog
-    url: /changelog-timeline/
+  - title: Find an Estate Planning Attorney
+    url: /
     button: primary-outline
 
-  - title: Contact
+  - title: Contact Us
     url: /contact/
     button: success
 
-  # - title: Changelog
+  # - title: Sample Button
   #   url: /contact/
   #   button: default
 
@@ -40,7 +28,7 @@ right:
   #   url: /contact/
   #   button: primary
 
-  # - title: Changelog
+  # - title: Sample Button
   #   url: /contact/
   #   button: secondary
 
@@ -48,7 +36,7 @@ right:
   #   url: /contact/
   #   button: danger
 
-  # - title: Changelog
+  # - title: Sample Button
   #   url: /contact/
   #   button: success
 
@@ -56,7 +44,7 @@ right:
   #   url: /contact/
   #   button: warning
 
-  # - title: Changelog
+  # - title: Sample Button
   #   url: /contact/
   #   button: primary-outline
 
@@ -64,7 +52,7 @@ right:
   #   url: /contact/
   #   button: danger-outline
 
-  # - title: Changelog
+  # - title: Sample Button
   #   url: /contact/
   #   button: success-outline
 
