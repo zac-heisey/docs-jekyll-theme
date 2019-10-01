@@ -1,6 +1,6 @@
 ---
 title: Do you provide customer support?
-categories: [presale]
+categories:
 ---
 
 Having support for your purchased item means that we will be available to you to iron out any potential issues you have in using the item.
@@ -15,7 +15,7 @@ Help with defects in the item or included third-party assets
 Item updates to ensure ongoing compatibility and to resolve security vulnerabilities
 Updates to ensure the item works as described and is protected against major security concerns
 Included version updates for all items
- 
+
 
 #### What's not included in item support?
 Item support does not include services to modify or extend the item beyond the original features, style and functionality described on the item page. For customization services that will help you tailor the item to your specific requirements, we recommend contacting us to see if we privately offer paid customization service.

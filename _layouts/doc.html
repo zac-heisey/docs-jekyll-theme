@@ -25,10 +25,15 @@ layout: default
 
                 <article class="uk-article">
 
+                    {% if page.tags contains 'state' %}
+                    <h1 class="uk-article-title">{{ page.title | escape }} Estate Planning</h1>
+                    {% else %}
                     <h1 class="uk-article-title">{{ page.title | escape }}</h1>
+                    {% endif %}
 
                     {% if page.subtitle %}<p class="uk-text-lead uk-text-muted">{{ page.subtitle }}</p>{% endif %}
 
+                    <!-- Author and Publish Date Meta Data -->
                     <div class="uk-article-meta uk-margin-top uk-margin-medium-bottom uk-flex uk-flex-middle">
                         {% include post-meta.html %}
                     </div>
