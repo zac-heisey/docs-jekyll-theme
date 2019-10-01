@@ -16,7 +16,7 @@ categories: [presale]
 To add the following to a page:
 {% raw %}
 ```yaml
-{% include faqs.html multiple="true" title="Frequently asked questions" category="presale" subtitle="Find quicke answers to frequent pre-sale questions asked by customers" %}
+{% include featured-faqs.html multiple="true" title="Frequently asked questions" category="presale" subtitle="Find quicke answers to frequent pre-sale questions asked by customers" %}
 ```
 {% endraw %}
 

@@ -93,7 +93,7 @@ sass:
 collections:
   docs:
     output: true
-  faqs:
+  featured-faqs:
     output: false
 
 # Defaults
