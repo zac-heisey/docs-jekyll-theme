@@ -25,7 +25,7 @@ author:
   title: Head of Content
   avatar: avatar-justin.png
 
-# Author settings, displayed on post and doc pages if front matter references author name e.g. author: peter
+# Author settings, displayed on post and doc pages if front matter references author name e.g. author: john
 authors:
   john:
     name: John Brown
@@ -35,6 +35,27 @@ authors:
     name: Sara Galen
     title: Lead Developer
     avatar: avatar-sara.png
+
+# Featured attorneys setting (featured-attorneys.html include; shows on homepage)
+attorneys:
+  alex:
+    name: Alex Koch
+    title: Estate Planning & Probate
+    avatar: avatar-alex.png
+    location: Knoxville, TN
+    profile: /estate-planning-attorneys/tn/alex-koch
+  daniel:
+    name: Daniel Shultz
+    title: Estate Planning Attorney
+    avatar: avatar-daniel.png
+    location: Austin, TX
+    profile: /estate-planning-attorneys/tx/daniel-shultz
+  tom:
+    name: Tom Farrell
+    title: Family Law Attorney
+    avatar: avatar-john.png
+    location: San Francisco, CA
+    profile: /estate-planning-attorneys/ca/tom-farell
 
 # Default footer image settings
 footer:
