@@ -17,13 +17,15 @@
 
     {% include offcanvas.html %}
 
-    {% if page.layout != 'doc' %}
+    {% include footer.html %}
+
+    <!-- {% if page.layout != 'doc' %}
         {% include footer.html %}
     {% endif %}
 
     {% if page.layout == 'doc' %}
         {% include hook-pre-closing-body-doc.html %}
-    {% endif %}
+    {% endif %} -->
 
     {% include hook-pre-closing-body.html %}
 

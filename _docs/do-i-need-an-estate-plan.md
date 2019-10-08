@@ -1,8 +1,8 @@
 ---
-title: Category boxes section
+title: Do I Need an Estate Plan?
 subtitle: Cras at dolor eget urna varius faucibus tempus in elit. Cras a dui imperdiet, tempus metus quis, pharetra turpis.
 tags: [features]
-author: evan
+author: sara
 ---
 
 Home page category boxes are added in `_data/navigation_boxes.yml`, e.g.:
@@ -26,4 +26,3 @@ Add boxes section to a page using the following include:
 {% include boxes.html columns="3" title="Browse Topics" subtitle="Chose an option that you need help with or search above" %}
 ```
 {% endraw %}
-

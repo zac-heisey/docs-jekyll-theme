@@ -1,5 +1,5 @@
 ---
-title: Customization
+title: Do I Need a Will or Trust?
 subtitle: Cras at dolor eget urna varius faucibus tempus in elit. Cras a dui imperdiet, tempus metus quis, pharetra turpis.
 tags: [customize]
 author: evan

@@ -1,16 +1,16 @@
 # Boxes include navigation
 
-- title: Getting Started
-  desc: Get started fast with installation and theme setup instructions
-  icon: cog
-  doc: installation
+- title: Estate Planning FAQs
+  desc: Browse our full library of estate planning and estate law FAQs
+  icon: question
+  url: /docs/intro
 
-- title: Theme Features
-  desc: Lean about all the theme options, features and how to use them
-  icon: settings
-  doc: hero
+- title: Estate Planning Attorneys
+  desc: Find and hire an estate planning attorney in your area
+  icon: search
+  url: /estate-planning-attorneys/
 
-- title: Customization
-  desc: Get help or tailor the theme to your specific requirements
-  icon: code
-  doc: customize
+- title: Estate Planning Blog
+  desc: Get comprehensive guides, news, tips, and other estate planning information
+  icon: rss
+  url: /blog/

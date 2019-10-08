@@ -1,9 +1,8 @@
 ---
-layout: doc
-title: Google Analytics
+title: What is Included in an Estate Plan?
 categories: [Features]
 author: evan
-tags: 
+tags:
 ---
 
 To enable Google Anaytics, add the following lines to your Jekyll site:

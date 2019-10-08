@@ -1,5 +1,5 @@
 ---
-title: Call to action section
+title: What is the Difference Between a Will and a Trust?
 subtitle: Cras at dolor eget urna varius faucibus tempus in elit. Cras a dui imperdiet, tempus metus quis, pharetra turpis.
 tags: [features]
 author: alex

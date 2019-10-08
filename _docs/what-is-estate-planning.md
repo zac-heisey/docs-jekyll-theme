@@ -1,5 +1,5 @@
 ---
-title: Adding alerts to content
+title: What is Estate Planning?
 subtitle: Cras at dolor eget urna varius faucibus tempus in elit. Cras a dui imperdiet, tempus metus quis, pharetra turpis.
 tags: [features]
 author: evan
@@ -28,5 +28,3 @@ Add alerts to a post using the following includes:
 {% include alert.html style="danger" text="Cras at dolor eget urna varius faucibus tempus in elit." %}
 ```
 {% endraw %}
-
-

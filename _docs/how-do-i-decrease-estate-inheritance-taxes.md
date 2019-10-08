@@ -1,5 +1,5 @@
 ---
-title: Frequently asked questions section
+title: How Do I Decrease Estate or Inheritance Taxes?
 subtitle: Cras at dolor eget urna varius faucibus tempus in elit. Cras a dui imperdiet, tempus metus quis, pharetra turpis.
 tags: [features, featured]
 author: alex

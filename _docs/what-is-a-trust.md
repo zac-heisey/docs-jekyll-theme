@@ -1,5 +1,5 @@
 ---
-title: Contact form (via FormSpree)
+title: What is a Trust?
 subtitle: This document covers the setup and options of theme feature described in the doc title
 author: sara
 tags: [setup]
@@ -12,4 +12,3 @@ Submit the form and confirm your email address at [FormSpree](https://formspree.
 {% include formspree.html email="my_name@gmail.com" redirect="/thanks/" name="true" subject="true" %}
 ```
 {% endraw %}
-

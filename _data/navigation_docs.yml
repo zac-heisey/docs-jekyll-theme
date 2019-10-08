@@ -1,12 +1,31 @@
 - title: Getting Started
   docs:
-  - installation
-  - setup
-  - footer
-  - posts
-  - docs
-  - comments
-  - analytics
+  - intro
+
+- title: Estate Planning
+  docs:
+  - what-is-estate-planning
+  - what-is-included-in-an-estate-plan
+  - do-i-need-an-estate-plan
+
+- title: Wills & Trusts
+  docs:
+  - what-is-a-will
+  - what-is-a-trust
+  - difference-between-wills-trusts
+  - do-i-need-a-will-or-trust
+
+- title: Taxes
+  docs:
+  - what-is-inheritance-tax
+  - what-is-estate-tax
+  - how-do-i-decrease-estate-inheritance-taxes
+
+- title: Probate
+  docs:
+  - what-is-probate
+  - how-long-is-probate-process
+  - how-can-i-avoid-probate
 
 - title: Estate Planning In...
   docs:
