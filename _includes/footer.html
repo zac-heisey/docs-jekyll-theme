@@ -23,4 +23,8 @@
         <div class="uk-margin-medium uk-text-small copyright link-secondary">{{ site.footer.copyright }}</div>
 
     </div>
+    <!-- Scripts -->
+    {% if page.url == '/estate-planning-attorneys/' %}
+    <script src="{{ "/assets/js/custom.js" | relative_url }}"></script>
+    {% endif %}
 </footer>
