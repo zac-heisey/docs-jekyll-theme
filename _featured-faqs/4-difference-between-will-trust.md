@@ -17,4 +17,4 @@ Nunc mattis enim ut tellus elementum. Lacus laoreet non curabitur gravida. In ia
 
 ### Need More Estate Planning Help?
 
-Visit our comprehensive [Estate Planning FAQs](/docs/) section for additional information.
+Visit our comprehensive [Estate Planning FAQs](/docs/intro/) section for additional information.
