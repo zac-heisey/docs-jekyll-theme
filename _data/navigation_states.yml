@@ -1,200 +1,202 @@
 - state: Alabama
-  metros:
-    - metro: Birmingham-Hoover
+  cities:
+    - city: Birmingham
+      metro: birmingham-hoover
 
 - state: Alaska
-  metros:
-  - TBD
+  cities:
+    - city: TBD
+      metro: TBD
 
 - state: Arizona
-  metros:
-    - metro: Phoenix-Mesa-Scottsdale
-    - metro: Tucson
+  cities:
+    - city: Phoenix
+      metro: phoenix-mesa-scottsdale
 
 - state: Arkansas
-  metros:
-  - TBD
+  cities:
+    - city:
 
 - state: California
-  metros:
-  - TBD
+  cities:
+    - city:
 
 - state: Colorado
-  metros:
-  - TBD
+  cities:
+    - city:
 
 - state: Connecticut
-  metros:
-  - TBD
+  cities:
+    - city:
 
 - state: Delaware
-  metros:
-  - TBD
+  cities:
+    - city:
 
 - state: Florida
-  metros:
-  - TBD
+  cities:
+    - city:
 
 - state: Georgia
-  metros:
-  - TBD
+  cities:
+    - city:
 
 - state: Hawaii
-  metros:
-  - TBD
+  cities:
+    - city:
 
 - state: Idaho
-  metros:
-  - TBD
+  cities:
+    - city:
 
 - state: Illinois
-  metros:
-  - TBD
+  cities:
+    - city:
 
 - state: Indiana
-  metros:
-  - TBD
+  cities:
+    - city:
 
 - state: Iowa
-  metros:
-  - TBD
+  cities:
+    - city:
 
 - state: Kansas
-  metros:
-  - TBD
+  cities:
+    - city:
 
 - state: Kentucky
-  metros:
-  - TBD
+  cities:
+    - city:
 
 - state: Louisiana
-  metros:
-  - TBD
+  cities:
+    - city:
 
 - state: Maine
-  metros:
-  - TBD
+  cities:
+    - city:
 
 - state: Maryland
-  metros:
-  - TBD
+  cities:
+    - city:
 
 - state: Massachusetts
-  metros:
-  - TBD
+  cities:
+    - city:
 
 - state: Michigan
-  metros:
-  - TBD
+  cities:
+    - city:
 
 - state: Minnesota
-  metros:
-  - TBD
+  cities:
+    - city:
 
 - state: Mississippi
-  metros:
-  - TBD
+  cities:
+    - city:
 
 - state: Missouri
-  metros:
-  - TBD
+  cities:
+    - city:
 
 - state: Montana
-  metros:
-  - TBD
+  cities:
+    - city:
 
 - state: Nebraska
-  metros:
-  - TBD
+  cities:
+    - city:
 
 - state: Nevada
-  metros:
-  - TBD
+  cities:
+    - city:
 
 - state: New Hampshire
-  metros:
-  - TBD
+  cities:
+    - city:
 
 - state: New Jersey
-  metros:
-  - TBD
+  cities:
+    - city:
 
 - state: New Mexico
-  metros:
-  - TBD
+  cities:
+    - city:
 
 - state: New York
-  metros:
-  - TBD
+  cities:
+    - city:
 
 - state: North Carolina
-  metros:
-  - TBD
+  cities:
+    - city:
 
 - state: North Dakota
-  metros:
-  - TBD
+  cities:
+    - city:
 
 - state: Ohio
-  metros:
-  - TBD
+  cities:
+    - city:
 
 - state: Oklahoma
-  metros:
-  - TBD
+  cities:
+    - city:
 
 - state: Oregon
-  metros:
-  - TBD
+  cities:
+    - city:
 
 - state: Pennsylvania
-  metros:
-  - TBD
+  cities:
+    - city:
 
 - state: Rhode Island
-  metros:
-  - TBD
+  cities:
+    - city:
 
 - state: South Carolina
-  metros:
-  - TBD
+  cities:
+    - city:
 
 - state: South Dakota
-  metros:
-  - TBD
+  cities:
+    - city:
 
 - state: Tennessee
-  metros:
-  - TBD
+  cities:
+    - city:
 
 - state: Texas
-  metros:
-  - TBD
+  cities:
+    - city:
 
 - state: Utah
-  metros:
-  - TBD
+  cities:
+    - city:
 
 - state: Vermont
-  metros:
-  - TBD
+  cities:
+    - city:
 
 - state: Virginia
-  metros:
-  - TBD
+  cities:
+    - city:
 
 - state: Washington
-  metros:
-  - TBD
+  cities:
+    - city:
 
 - state: West Virginia
-  metros:
-  - TBD
+  cities:
+    - city:
 
 - state: Wisconsin
-  metros:
-  - TBD
+  cities:
+    - city:
 
 - state: Wyoming
-  metros:
-  - TBD
+  cities:
+    - city:

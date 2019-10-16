@@ -12,9 +12,10 @@ layout: default
           {% for state in site.data.navigation_states %}
           <h5>{{ state.state }}</h5>
           <ul class="uk-nav uk-nav-default doc-nav">
-          {% for metro in state.metros %}
-            {% assign metro_url = metro.metro | prepend:"/estate-planning-attorneys/?metro=" %}
-            <li><a href="{{ metro_url }}" class="metro-link">{{ metro.metro }}</a></li>
+          {% for city in state.cities %}
+            {% assign city_param = city.city | prepend:"?city=" %}
+            {% assign metro_param = city.metro | prepend:"&metro=" %}
+            <li><a href="/estate-planning-attorneys/{{ city_param }}{{ metro_param }}" class="metro-link">{{ city.city }}</a></li>
           {% endfor %}
           </ul>
           {% endfor %}

@@ -34,7 +34,7 @@ var attorneyData = document.querySelector('#attorney-data');
 
 // Loop through metro links and add active class if href matches current URL
 for (var link of metroLinks) {
-  if(currentURL == link.getAttribute('href')) {
+  if (currentURL == link.getAttribute('href')) {
     link.parentElement.classList.add('uk-active');
   }
 }
@@ -42,39 +42,44 @@ for (var link of metroLinks) {
 
 //== Functions & Methods ==//
 
-// Set up XHR request
-var xhr = new XMLHttpRequest();
-// Setup our listener to process request state changes
-xhr.onreadystatechange = function() {
-  // Only run if the request is complete
-  if (xhr.readyState !== 4) return;
-  // Process our return data
-  if (xhr.status >= 200 && xhr.status < 300) {
-      // This will run when the request is successful
-      renderMarkup(JSON.parse(xhr.responseText));
-  } else {
-      // This will run when it's not
-      attorneyData.innerHTML = 'Sorry, we are having trouble locating estate planning attorneys in your area. Please try again later.';
-      console.log(xhr);
-  }
-};
-// Create and send a GET request based on URL params
-xhr.open('GET', 'https://api.sheety.co/8439def3-02f6-4dcf-a361-49093efba224');
-xhr.send();
+// Ping Sheety API to get attorney listing & profile data
+function pingAPI() {
+
+  // Set up XHR request
+  var xhr = new XMLHttpRequest();
+  // Setup our listener to process request state changes
+  xhr.onreadystatechange = function() {
+    // Only run if the request is complete
+    if (xhr.readyState !== 4) return;
+    // Process our return data
+    if (xhr.status >= 200 && xhr.status < 300) {
+        // This will run when the request is successful
+        renderMarkup(JSON.parse(xhr.responseText));
+    } else {
+        // This will run when it's not
+        attorneyData.innerHTML = 'Sorry, we are having trouble locating estate planning attorneys in your area. Please try again later.';
+        console.log(xhr);
+    }
+  };
+  // Create and send a GET request based on URL params
+  xhr.open('GET', 'https://api.sheety.co/8439def3-02f6-4dcf-a361-49093efba224');
+  xhr.send();
+
+}
 
 // Render attorney listings or attorney profile markup
 function renderMarkup(data) {
 
   // Set up HTML string
   var html =
-    '<h1 class="uk-article-title">Estate Planning Attorneys in ' + params.metro + '</h1>' +
+    '<h1 class="uk-article-title">Estate Planning Attorneys in ' + params.city + '</h1>' +
     '<p class="uk-text-lead uk-text-muted">Find the Top Estate Planning Attorneys in the ' + params.metro + ' Area</p>';
 
   // Loop through attorney data from API and push to string
   data.forEach(function(attorney) {
     // If attorney metro area matches URL params metro
-    if(attorney.metro === params.metro.toLowerCase()) {
-      // Update HTML with attorney data
+    if (attorney.metro === params.metro) {
+      // Update HTML with attorney data (replace this markup with code from the boxes.html include file, etc.)
       html +=
         '<div class="article-content link-primary">' +
           '<p>' + attorney.practiceName + '</p>' +
@@ -92,3 +97,9 @@ function renderMarkup(data) {
 
 
 //== Inits & Event Listeners ==//
+
+// Check is user is on a city/metro page
+if (params.city !== undefined) {
+  // Ping Sheet API
+  pingAPI();
+}
