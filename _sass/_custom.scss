@@ -1,0 +1,21 @@
+/*== Custom Styles ==*/
+
+/* Attorney Listings Styles */
+
+.featured-listing {
+
+  .uk-card {
+    border: 2px solid $global-primary-background;
+
+    &:hover {
+      background-color: $global-primary-background;
+      color: #fff;
+    }
+
+  }
+
+  img {
+    max-width: 150px;
+  }
+
+}

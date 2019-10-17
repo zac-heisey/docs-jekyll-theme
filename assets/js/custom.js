@@ -73,7 +73,8 @@ function renderMarkup(data) {
   // Set up HTML string
   var html =
     '<h1 class="uk-article-title">Estate Planning Attorneys in ' + params.city + '</h1>' +
-    '<p class="uk-text-lead uk-text-muted">Find the Top Estate Planning Attorneys in the ' + params.metro + ' Area</p>';
+    '<p class="uk-text-lead uk-text-muted">Find the Top Estate Planning Attorneys in the ' + params.metro + ' Area</p>' +
+    '<div class="uk-child-width-1-2@m uk-grid-match uk-text-center uk-margin-medium-top" data-uk-grid>';
 
   // Loop through attorney data from API and push to string
   data.forEach(function(attorney) {
@@ -81,10 +82,19 @@ function renderMarkup(data) {
     if (attorney.metro === params.metro) {
       // Update HTML with attorney data (replace this markup with code from the boxes.html include file, etc.)
       html +=
-        '<div class="article-content link-primary">' +
-          '<p>' + attorney.practiceName + '</p>' +
-          '<p>' + attorney.personName + '</p>' +
-          '<p>' + attorney.street1 + '</p>' +
+        '<div class="featured-listing">' +
+          '<div class="uk-card uk-card-default uk-box-shadow-medium uk-card-hover uk-card-body uk-inline border-radius-large border-xlight">' +
+            '<img class="uk-border-circle" src="' + attorney.image + '" alt="' + attorney.firstName + ' ' + attorney.lastName + ' headshot">' +
+            '<h3 class="uk-card-title uk-margin">' + attorney.firstName + ' ' + attorney.lastName + '</h3>' +
+            '<address>' +
+              '<p class="uk-text-lead">' + attorney.practiceName + '</p>' +
+              '<p>' + attorney.street + '</p>' +
+              '<p>' + attorney.city + ', ' + attorney.zip + '</p>' +
+            '</address>' +
+            '<a href="tel:+1' + attorney.phone1.replace(/\(|\)|\s|\-/g, '') + '">Call</a>' +
+            '<a href="mailto:' + attorney.email + '">Email</a>' +
+            '<a href="' + currentURL + '&firstName=' + attorney.firstName + '&lastName=' + attorney.lastName + '">View Profile</a>' +
+          '</div>' +
         '</div>';
     }
 
