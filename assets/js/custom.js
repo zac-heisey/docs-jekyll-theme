@@ -88,11 +88,14 @@ function renderMarkup(data) {
             '<h3 class="uk-card-title uk-margin">' + attorney.firstName + ' ' + attorney.lastName + '</h3>' +
             '<address>' +
               '<p class="uk-text-lead">' + attorney.practiceName + '</p>' +
-              '<p>' + attorney.street + '</p>' +
-              '<p>' + attorney.city + ', ' + attorney.zip + '</p>' +
+              '<p class="street">' + attorney.street + '</p>' +
+              '<p class="city-zip">' + attorney.city + ', ' + attorney.zip + '</p>' +
             '</address>' +
+            '<span uk-icon="icon: receiver;"></span>' +
             '<a href="tel:+1' + attorney.phone1.replace(/\(|\)|\s|\-/g, '') + '">Call</a>' +
+            '<span uk-icon="icon: mail;"></span>' +
             '<a href="mailto:' + attorney.email + '">Email</a>' +
+            '<span uk-icon="icon: user;"></span>' +
             '<a href="' + currentURL + '&firstName=' + attorney.firstName + '&lastName=' + attorney.lastName + '">View Profile</a>' +
           '</div>' +
         '</div>';

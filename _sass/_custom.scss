@@ -4,18 +4,50 @@
 
 .featured-listing {
 
-  .uk-card {
+  .uk-card, .uk-card-default, .uk-card-body {
     border: 2px solid $global-primary-background;
 
     &:hover {
       background-color: $global-primary-background;
-      color: #fff;
+
+      address > p {
+        color: #fff;
+      }
+
+    }
+
+    address {
+
+      .uk-text-lead {
+        margin-bottom: 1rem;
+      }
+
+      .street, .city-zip {
+        margin: 0;
+      }
+
     }
 
   }
 
   img {
-    max-width: 150px;
+    max-width: 100px;
+  }
+
+  span {
+    color: $global-color;
+  }
+
+  a {
+
+    &:not(:last-child) {
+      margin: 0 1rem 0 .25rem;
+    }
+
+    &:last-child {
+      margin: 0 0 0 .25rem;
+    }
+
   }
 
 }
