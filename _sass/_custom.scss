@@ -1,6 +1,6 @@
 /*== Custom Styles ==*/
 
-/* Attorney Listings Styles */
+/* Featured Attorney Listings Styles */
 
 .featured-listing {
 
@@ -49,5 +49,15 @@
     }
 
   }
+
+}
+
+/* Standard Attorney Listings Styles */
+
+.standard-listing {
+  width: 25% !important;
+  margin-bottom: 2rem;
+  padding: 0;
+
 
 }

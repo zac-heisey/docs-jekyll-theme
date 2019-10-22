@@ -42,7 +42,7 @@ for (var link of metroLinks) {
 
 //== Functions & Methods ==//
 
-// Ping Sheety API to get attorney listing & profile data
+// Ping Sheety API to get attorney listing & profile data from Google Sheet
 function pingAPI() {
 
   // Set up XHR request
@@ -53,12 +53,21 @@ function pingAPI() {
     if (xhr.readyState !== 4) return;
     // Process our return data
     if (xhr.status >= 200 && xhr.status < 300) {
-        // This will run when the request is successful
-        renderMarkup(JSON.parse(xhr.responseText));
+      // This will run when the request is successful
+      // If user is on an attorney listings page
+      if (!params.firstName) {
+        // Run renderListings function
+        renderListings(JSON.parse(xhr.responseText));
+      }
+      // Else if user is on an attorney profile page
+      else if (params.firstName) {
+        // Run renderProfile function
+        renderProfile(JSON.parse(xhr.responseText));
+      }
     } else {
-        // This will run when it's not
-        attorneyData.innerHTML = 'Sorry, we are having trouble locating estate planning attorneys in your area. Please try again later.';
-        console.log(xhr);
+      // This will run when it's not
+      attorneyData.innerHTML = 'Sorry, we are having trouble locating estate planning attorneys in your area. Please try again later.';
+      console.log(xhr);
     }
   };
   // Create and send a GET request based on URL params
@@ -67,21 +76,27 @@ function pingAPI() {
 
 }
 
-// Render attorney listings or attorney profile markup
-function renderMarkup(data) {
+// Render attorney listings markup
+function renderListings(data) {
 
-  // Set up HTML string
-  var html =
+  // Set up HTML strings
+  var featuredHTML =
     '<h1 class="uk-article-title">Estate Planning Attorneys in ' + params.city + '</h1>' +
     '<p class="uk-text-lead uk-text-muted">Find the Top Estate Planning Attorneys in the ' + params.metro + ' Area</p>' +
     '<div class="uk-child-width-1-2@m uk-grid-match uk-text-center uk-margin-medium-top" data-uk-grid>';
 
+  var standardHTML =
+    '<hr class="uk-margin-medium">' +
+    '<div class="section-team">' +
+    '<div class="uk-container uk-container-expand">' +
+    '<div class="uk-margin-medium-top uk-grid-small uk-text-center uk-margin-medium-top link-primary" data-uk-grid>';
+
   // Loop through attorney data from API and push to string
   data.forEach(function(attorney) {
-    // If attorney metro area matches URL params metro
-    if (attorney.metro === params.metro) {
-      // Update HTML with attorney data (replace this markup with code from the boxes.html include file, etc.)
-      html +=
+    // If attorney metro area matches URL params metro AND attorney is featured
+    if (attorney.metro === params.metro && attorney.featured) {
+      // Update HTML with featured attorney data
+      featuredHTML +=
         '<div class="featured-listing">' +
           '<div class="uk-card uk-card-default uk-box-shadow-medium uk-card-hover uk-card-body uk-inline border-radius-large border-xlight">' +
             '<img class="uk-border-circle" src="' + attorney.image + '" alt="' + attorney.firstName + ' ' + attorney.lastName + ' headshot">' +
@@ -89,7 +104,7 @@ function renderMarkup(data) {
             '<address>' +
               '<p class="uk-text-lead">' + attorney.practiceName + '</p>' +
               '<p class="street">' + attorney.street + '</p>' +
-              '<p class="city-zip">' + attorney.city + ', ' + attorney.zip + '</p>' +
+              '<p class="city-zip">' + attorney.city + ', ' + attorney.stateShort + attorney.zip + '</p>' +
             '</address>' +
             '<span uk-icon="icon: receiver;"></span>' +
             '<a href="tel:+1' + attorney.phone1.replace(/\(|\)|\s|\-/g, '') + '">Call</a>' +
@@ -100,19 +115,64 @@ function renderMarkup(data) {
           '</div>' +
         '</div>';
     }
+    // Else if attorney metro area matches URL params metro
+    else if (attorney.metro === params.metro) {
+      // Update HTML with standard attorney data
+      standardHTML +=
+        '<div class="standard-listing">' +
+          '<div class="uk-card">' +
+            '<img class="uk-border-circle" src="' + attorney.image + '" alt="' + attorney.firstName + ' ' + attorney.lastName + ' headshot">' +
+            '<h5 class="uk-margin-remove-bottom uk-margin-top">' + attorney.firstName + ' ' + attorney.lastName + '</h5>' +
+            '<p class="uk-article-meta uk-margin-remove-bottom uk-margin-small-top">' + attorney.practiceName + '</p>' +
+            '<p class="uk-article-meta uk-margin-remove-bottom uk-margin-small-top">' + attorney.city + ', ' + attorney.stateShort + '</p>' +
+            '<a class="uk-article-meta uk-margin-remove-bottom uk-margin-small-top" href="' + currentURL + '&firstName=' + attorney.firstName + '&lastName=' + attorney.lastName + '">View Profile</a>' +
+          '</div>' +
+        '</div>';
+    }
+
+  });
+
+  // Close open divs from HTML strings
+  featuredHTML += '</div>';
+  standardHTML += '</div></div></div>';
+
+  // Inject the HTML into the DOM
+  featuredHTML += standardHTML;
+  attorneyData.innerHTML = featuredHTML;
+
+}
+
+// Render attorney profile markup
+function renderProfile(data) {
+
+  // Set up HTML string
+  var profileHTML = '';
+
+  // Loop through attorney data from API and push to string
+  data.forEach(function(attorney) {
+    // If attorney metro & last name match params AND attorney is featured
+    if (attorney.metro === params.metro && attorney.lastName === params.lastName && attorney.featured) {
+      // Update HTML with featured attorney data
+      profileHTML +=
+        '<h1 class="uk-article-title">' + attorney.firstName + ' ' + attorney.lastName + '</h1>' +
+        '<p class="uk-text-lead uk-text-muted">' + attorney.practiceName + '</p>' +
+        '<div class="article-content">' +
+          '<p>' + attorney.overview + '</p>' +
+        '</div>';
+    }
 
   });
 
   // Inject the HTML into the DOM
-  attorneyData.innerHTML = html;
+  attorneyData.innerHTML = profileHTML;
 
 }
 
 
 //== Inits & Event Listeners ==//
 
-// Check is user is on a city/metro page
+// If user is on a city/metro page
 if (params.city !== undefined) {
-  // Ping Sheet API
+  // Ping Sheety API
   pingAPI();
 }
