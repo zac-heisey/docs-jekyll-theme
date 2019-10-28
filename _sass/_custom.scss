@@ -1,5 +1,7 @@
 /*== Custom Styles ==*/
 
+/*== Attorney Listings ==*/
+
 /* Featured Attorney Listings Styles */
 
 .featured-listing {
@@ -58,6 +60,88 @@
   width: 25% !important;
   margin-bottom: 2rem;
   padding: 0;
+}
 
+
+/*== Attorney Profiles ==*/
+
+/* Featured Attorney Profile Styles */
+
+#featured-icon {
+  color: $global-primary-background;
+}
+
+.featured-profile {
+
+  #profile-card {
+    display: flex;
+    align-items: flex-end;
+
+    #left, #right {
+      width: 50%;
+    }
+
+  }
+
+  .uk-card, .uk-card-default, .uk-card-body {
+    background-color: $global-primary-background;
+    color: $global-color;
+
+    &:hover {
+      background-color: $global-primary-background;
+    }
+
+    address {
+
+      p {
+        margin: 0.25rem 0;
+        font-size: 1.15rem;
+      }
+
+    }
+
+    a {
+
+      &.uk-button.uk-button-success {
+        margin: 0.65rem 0.65rem 0.65rem 0;
+      }
+
+      > span {
+        margin-right: 0.5rem;
+      }
+
+    }
+
+  }
+
+  img {
+    max-width: 150px;
+
+    &.uk-border-circle {
+      border: 2px solid #fff;
+      padding: 2px;
+    }
+
+  }
+
+}
+
+
+/*== Media Queries ==*/
+
+@media (max-width: 640px) {
+
+  .featured-profile {
+
+    #profile-card {
+      flex-direction: column;
+
+      #left, #right {
+        width: 100%;
+      }
+
+    }
+
+  }
 
 }
