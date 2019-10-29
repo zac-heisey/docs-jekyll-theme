@@ -16,6 +16,10 @@
         color: #fff;
       }
 
+      img {
+        border: 2px solid #fff;
+      }
+
     }
 
     address {
@@ -34,22 +38,12 @@
 
   img {
     max-width: 100px;
+    border: 2px solid $global-primary-background;
+    padding: 2px;
   }
 
   span {
     color: $global-color;
-  }
-
-  a {
-
-    &:not(:last-child) {
-      margin: 0 1rem 0 .25rem;
-    }
-
-    &:last-child {
-      margin: 0 0 0 .25rem;
-    }
-
   }
 
 }

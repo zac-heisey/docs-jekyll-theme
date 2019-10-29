@@ -99,6 +99,7 @@ function renderListings(data) {
       featuredHTML +=
         '<div class="featured-listing">' +
           '<div class="uk-card uk-card-default uk-box-shadow-medium uk-card-hover uk-card-body uk-inline border-radius-large border-xlight">' +
+            '<a class="uk-position-cover" href="' + currentURL + '&firstName=' + attorney.firstName + '&lastName=' + attorney.lastName + '"></a>' +
             '<img class="uk-border-circle" src="' + attorney.image + '" alt="' + attorney.firstName + ' ' + attorney.lastName + ' headshot">' +
             '<h3 class="uk-card-title uk-margin">' + attorney.firstName + ' ' + attorney.lastName + '</h3>' +
             '<address>' +
@@ -106,12 +107,7 @@ function renderListings(data) {
               '<p class="street">' + attorney.street + '</p>' +
               '<p class="city-zip">' + attorney.city + ', ' + attorney.stateShort + ' ' + attorney.zip + '</p>' +
             '</address>' +
-            '<span uk-icon="icon: receiver;"></span>' +
-            '<a href="tel:+1' + attorney.phone1.replace(/\(|\)|\s|\-/g, '') + '">Call</a>' +
-            '<span uk-icon="icon: mail;"></span>' +
-            '<a href="mailto:' + attorney.email + '">Email</a>' +
-            '<span uk-icon="icon: user;"></span>' +
-            '<a href="' + currentURL + '&firstName=' + attorney.firstName + '&lastName=' + attorney.lastName + '">View Profile</a>' +
+            '<p style="color: #323247;"><span uk-icon="icon: user;"></span>View Profile</p>' +
           '</div>' +
         '</div>';
     }
