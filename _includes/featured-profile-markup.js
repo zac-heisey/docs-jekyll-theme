@@ -36,5 +36,5 @@
   '</div>' +
   // Attorney Contact Markup (_includes/attorney-contact-markup.js)
   '<h3 class="uk-card-title uk-margin">Get In Touch With ' + attorney.practiceName + '</h3>' +
-  {% include practice-contact.js %} +
+  {% include attorney-contact-markup.js %} +
 '</div>'
