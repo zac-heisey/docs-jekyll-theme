@@ -109,7 +109,7 @@ function renderListings(data) {
               '<p class="street">' + attorney.street + '</p>' +
               '<p class="city-zip">' + attorney.city + ', ' + attorney.stateShort + ' ' + attorney.zip + '</p>' +
             '</address>' +
-            '<p style="color: #323247;"><span uk-icon="icon: user;"></span>View Profile</p>' +
+            '<p id="featured-label"><span uk-icon="icon: bookmark;"></span>View Featured Attorney</p>' +
           '</div>' +
         '</div>';
     }
