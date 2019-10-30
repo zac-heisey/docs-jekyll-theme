@@ -1,5 +1,3 @@
-/*== Custom Styles ==*/
-
 /*== Attorney Listings ==*/
 
 /* Featured Attorney Listings Styles */
@@ -61,8 +59,8 @@
 
 /* Featured Attorney Profile Styles */
 
-#featured-icon {
-  color: $global-primary-background;
+#featured-label {
+  color: darkorange;
 }
 
 .featured-profile {
@@ -90,6 +88,11 @@
       p {
         margin: 0.25rem 0;
         font-size: 1.15rem;
+
+        &.name {
+          font-weight: bold;
+        }
+
       }
 
     }
@@ -112,7 +115,7 @@
     max-width: 150px;
 
     &.uk-border-circle {
-      border: 2px solid #fff;
+      border: 2px solid darkorange;
       padding: 2px;
     }
 
