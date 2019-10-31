@@ -68,20 +68,20 @@
 @mixin hook-button-misc(){
     // Warning
     .uk-button-warning {
-        background-color: $button-warning-background;
+        background-color: $button-alternate-background;
         color: $button-primary-color;
         border: 1px solid transparent;
     }
 
     .uk-button-warning:hover,
     .uk-button-warning:focus {
-        background-color: $button-warning-hover-background;
+        background-color: $button-alternate-hover-background;
         color: $button-primary-color;
     }
 
     .uk-button-warning:active,
     .uk-button-warning.uk-active {
-        background-color: $button-warning-hover-background;
+        background-color: $button-alternate-hover-background;
         color: $button-primary-color;
     }
 
@@ -168,24 +168,24 @@
     }
 
     // Warning outline
-    .uk-button-warning-outline {
+    .uk-button-alternate-outline {
         background-color: $button-default-background;
-        color: $button-warning-background;
-        border: $button-border-width solid $button-warning-background;
+        color: $button-alternate-background;
+        border: $button-border-width solid $button-alternate-background;
     }
 
-    .uk-button-warning-outline:hover,
-    .uk-button-warning-outline:focus {
-        background-color: $button-warning-background;
+    .uk-button-alternate-outline:hover,
+    .uk-button-alternate-outline:focus {
+        background-color: $button-alternate-background;
         color: $button-primary-hover-color;
-        border: $button-border-width solid $button-warning-background;
+        border: $button-border-width solid $button-alternate-background;
     }
 
-    .uk-button-warning-outline:active,
-    .uk-button-warning-outline.uk-active {
-        background-color: $button-warning-background;
+    .uk-button-alternate-outline:active,
+    .uk-button-alternate-outline.uk-active {
+        background-color: $button-alternate-background;
         color: $button-primary-active-color;
-        border: $button-border-width solid $button-warning-background;
+        border: $button-border-width solid $button-alternate-background;
     }
 
 }

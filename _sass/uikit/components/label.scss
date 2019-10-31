@@ -22,8 +22,8 @@ $label-color:                                    $global-inverse-color !default;
 
 $label-success-background:                       $global-success-background !default;
 $label-success-color:                            $global-inverse-color !default;
-$label-warning-background:                       $global-warning-background !default;
-$label-warning-color:                            $global-inverse-color !default;
+$label-alternate-background:                       $global-alternate-background !default;
+$label-alternate-color:                            $global-inverse-color !default;
 $label-danger-background:                        $global-danger-background !default;
 $label-danger-color:                             $global-inverse-color !default;
 
@@ -63,8 +63,8 @@ $label-danger-color:                             $global-inverse-color !default;
  */
 
 .uk-label-warning {
-    background-color: $label-warning-background;
-    color: $label-warning-color;
+    background-color: $label-alternate-background;
+    color: $label-alternate-color;
     @if(mixin-exists(hook-label-warning)) {@include hook-label-warning();}
 }
 

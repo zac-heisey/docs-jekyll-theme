@@ -1,6 +1,6 @@
 '<h1 class="uk-article-title">' + attorney.firstName + ' ' + attorney.lastName + '</h1>' +
 '<p class="uk-text-lead uk-text-muted">' + attorney.practiceName + ' | ' + attorney.city + ', ' + attorney.stateShort + '</p>' +
-'<h3 class="uk-card-title uk-margin" id="featured-label"><span uk-icon="icon: bookmark; ratio: 2;"></span>Featured Attorney</h3>' +
+'<div class="uk-alert-warning" data-uk-alert><p><span uk-icon="icon: bookmark; ratio: 2;"></span>FEATURED ATTORNEY</p></div>' +
 '<div class="uk-child-width-1-1@m uk-grid-match" data-uk-grid>' +
   '<div class="featured-profile">' +
     '<div id="profile-card" class="uk-card uk-card-default uk-box-shadow-medium uk-card-hover uk-card-body uk-inline border-radius-large border-xlight">' +

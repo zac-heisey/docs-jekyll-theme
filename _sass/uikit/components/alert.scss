@@ -25,14 +25,14 @@ $alert-color:                                    $global-color !default;
 $alert-close-top:                                $alert-padding + 5px !default;
 $alert-close-right:                              $alert-padding !default;
 
-$alert-primary-background:                       lighten(mix(white, $global-primary-background, 40%), 20%) !default;
+$alert-primary-background:                       lighten($global-primary-background, 25%) !default;
 $alert-primary-color:                            $global-primary-background !default;
 
 $alert-success-background:                       lighten(mix(white, $global-success-background, 40%), 25%) !default;
 $alert-success-color:                            $global-success-background !default;
 
-$alert-warning-background:                       lighten(mix(white, $global-warning-background, 45%), 15%) !default;
-$alert-warning-color:                            $global-warning-background !default;
+$alert-alternate-background:                       lighten(mix(white, $global-alternate-background, 45%), 15%) !default;
+$alert-alternate-color:                            $global-alternate-background !default;
 
 $alert-danger-background:                        lighten(mix(white, $global-danger-background, 40%), 20%) !default;
 $alert-danger-color:                             $global-danger-background !default;
@@ -116,8 +116,8 @@ $alert-danger-color:                             $global-danger-background !defa
  */
 
 .uk-alert-warning {
-    background: $alert-warning-background;
-    color: $alert-warning-color;
+    background: $alert-alternate-background;
+    color: $alert-alternate-color;
     @if(mixin-exists(hook-alert-warning)) {@include hook-alert-warning();}
 }
 

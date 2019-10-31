@@ -39,7 +39,7 @@ $notification-close-right:                             $notification-message-pad
 
 $notification-message-primary-color:                   $global-primary-background !default;
 $notification-message-success-color:                   $global-success-background !default;
-$notification-message-warning-color:                   $global-warning-background !default;
+$notification-message-alternate-color:                   $global-alternate-background !default;
 $notification-message-danger-color:                    $global-danger-background !default;
 
 
@@ -161,7 +161,7 @@ $notification-message-danger-color:                    $global-danger-background
  */
 
 .uk-notification-message-warning {
-    color: $notification-message-warning-color;
+    color: $notification-message-alternate-color;
     @if(mixin-exists(hook-notification-message-warning)) {@include hook-notification-message-warning();}
 }
 

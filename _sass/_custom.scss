@@ -15,7 +15,7 @@
       }
 
       img {
-        border: 2px solid darkorange;
+        border: 2px solid $global-alternate-background;
       }
 
     }
@@ -54,10 +54,6 @@
 /*== Attorney Profiles ==*/
 
 /* Featured Profile Markup Styles (_includes/featured-profile-markup.js) */
-
-#featured-label {
-  color: darkorange;
-}
 
 .featured-profile {
 
@@ -111,7 +107,7 @@
     max-width: 150px;
 
     &.uk-border-circle {
-      border: 2px solid darkorange;
+      border: 2px solid $global-alternate-background;
       padding: 2px;
     }
 
