@@ -4,7 +4,7 @@ width: expand
 hero:
   title: Questions About Estate Law?
   subtitle: Find answers to all of your estate planning questions. From estate law to probate, wills to trusts, to finding an estate planning attorney, EstateLawFAQS.com has you covered.
-  image: knowledge.svg
+  image: questions.svg
   search: true
 ---
 
