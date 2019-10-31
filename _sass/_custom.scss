@@ -1,5 +1,11 @@
 /*== Attorney Listings ==*/
 
+/* General Styles */
+
+#start-search-mobile {
+  display: none;
+}
+
 /* Featured Listings Markup Styles (_includes/featured-listings-markup.js) */
 
 .featured-listing {
@@ -163,6 +169,23 @@
 
 
 /*== Media Queries ==*/
+
+@media (max-width: 959px) {
+
+  #start-search-desktop {
+    display: none;
+  }
+
+  #start-search-mobile {
+    display: inline;
+
+    .uk-button-primary-outline:hover {
+      color: #fff;
+    }
+
+  }
+
+}
 
 @media (max-width: 640px) {
 
