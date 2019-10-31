@@ -13,7 +13,7 @@
           '<p class="street">' + attorney.street + '</p>' +
           '<p class="city-zip">' + attorney.city + ', ' + attorney.stateShort + ' ' + attorney.zip + '</p>' +
         '</address>' +
-        '<a class="uk-button uk-button-success" href=""><span uk-icon="icon: comment;"></span>Send Message</a>' +
+        '<a class="uk-button uk-button-success" href="#send-message" target="_top"><span uk-icon="icon: comment;"></span>Send Message</a>' +
       '</div>' +
       // Right side of profile card
       '<div id="right">' +
@@ -26,8 +26,8 @@
         '</ul>' +
         '<h3 class="uk-card-title uk-margin">Free Consultation?</h3>' +
         freeConsult +
-        '<a class="uk-button uk-button-success" href=""><span uk-icon="icon: receiver;"></span>Call</a>' +
-        '<a class="uk-button uk-button-success" href=""><span uk-icon="icon: link;"></span>Visit Website</a>' +
+        '<a class="uk-button uk-button-success" href="tel:+1' + attorney.phone1.replace(/\(|\)|\s|\-/g, '') + '"><span uk-icon="icon: receiver;"></span>Call</a>' +
+        '<a class="uk-button uk-button-success" href="' + attorney.website + '?utm_source=estatelawfaqs&utm_medium=profile&utm_campaign=featured" target="_blank"><span uk-icon="icon: link;"></span>Visit Website</a>' +
       '</div>' +
     '</div>' +
   '</div>' +
@@ -37,6 +37,6 @@
     '<p style="margin: 0;">' + attorney.practiceOverview + '</p>' +
   '</div>' +
   // Attorney Contact Markup (_includes/attorney-contact-markup.js)
-  '<h3 class="uk-card-title uk-margin">Get In Touch With ' + attorney.practiceName + '</h3>' +
+  '<h3 class="uk-card-title uk-margin" id="send-message">Get In Touch With ' + attorney.practiceName + '</h3>' +
   {% include attorney-contact-markup.js %} +
 '</div>'
