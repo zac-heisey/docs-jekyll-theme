@@ -15,7 +15,7 @@
       }
 
       img {
-        border: 2px solid $global-alternate-background;
+        border: 2px solid $global-success-background;
       }
 
     }
@@ -55,7 +55,7 @@
 
 /* Featured Profile Markup Styles (_includes/featured-profile-markup.js) */
 
-.featured-profile {
+.featured-profile, .standard-profile {
 
   #profile-card {
     display: flex;
@@ -107,11 +107,37 @@
     max-width: 150px;
 
     &.uk-border-circle {
-      border: 2px solid $global-alternate-background;
+      border: 2px solid $global-success-background;
       padding: 2px;
     }
 
   }
+
+}
+
+/* Standard Profile Markup Styles (_includes/standard-profile-markup.js) */
+
+.standard-profile {
+
+  .uk-card, .uk-card-default, .uk-card-body {
+    background-color: #fff;
+    color: $global-color;
+    margin-top: 1rem;
+
+    &:hover {
+      background-color: #fff;
+    }
+
+  }
+
+  img {
+
+    &.uk-border-circle {
+      border: 2px solid $global-primary-background;
+    }
+
+  }
+
 
 }
 
@@ -134,6 +160,7 @@
   }
 
 }
+
 
 /*== Media Queries ==*/
 

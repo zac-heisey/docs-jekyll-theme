@@ -139,6 +139,17 @@ function renderProfile(data) {
       // Update HTML with featured attorney data
       profileHTML += {% include featured-profile-markup.js %};
     }
+    // Else if attorney metro & last name match params
+    else if (attorney.metro === params.metro && attorney.lastName === params.lastName) {
+      // Check if attorney offers free consultation
+      if (attorney.freeConsult) {
+        freeConsult = '<p><span uk-icon="icon: check; ratio: 1.5;" style="color: darkorange;"></span> YES</p>';
+      } else {
+        freeConsult = '<p><span uk-icon="icon: close; ratio: 1.5;" style="color: red;"></span> NO</p>';
+      }
+      // Update HTML with featured attorney data
+      profileHTML += {% include standard-profile-markup.js %};
+    }
 
   });
 
