@@ -15,7 +15,7 @@
       }
 
       img {
-        border: 2px solid $global-success-background;
+        border: 2px solid $global-alternate-background;
       }
 
     }
@@ -107,7 +107,7 @@
     max-width: 150px;
 
     &.uk-border-circle {
-      border: 2px solid $global-success-background;
+      border: 2px solid $global-alternate-background;
       padding: 2px;
     }
 

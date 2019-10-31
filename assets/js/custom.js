@@ -132,7 +132,7 @@ function renderProfile(data) {
     if (attorney.metro === params.metro && attorney.lastName === params.lastName && attorney.featured) {
       // Check if attorney offers free consultation
       if (attorney.freeConsult) {
-        freeConsult = '<p><span uk-icon="icon: check; ratio: 1.5;" style="color: darkorange;"></span> YES</p>';
+        freeConsult = '<p><span uk-icon="icon: check; ratio: 1.5;" style="color: springgreen;"></span> YES</p>';
       } else {
         freeConsult = '<p><span uk-icon="icon: close; ratio: 1.5;" style="color: red;"></span> NO</p>';
       }
@@ -143,7 +143,7 @@ function renderProfile(data) {
     else if (attorney.metro === params.metro && attorney.lastName === params.lastName) {
       // Check if attorney offers free consultation
       if (attorney.freeConsult) {
-        freeConsult = '<p><span uk-icon="icon: check; ratio: 1.5;" style="color: darkorange;"></span> YES</p>';
+        freeConsult = '<p><span uk-icon="icon: check; ratio: 1.5;" style="color: springgreen;"></span> YES</p>';
       } else {
         freeConsult = '<p><span uk-icon="icon: close; ratio: 1.5;" style="color: red;"></span> NO</p>';
       }
