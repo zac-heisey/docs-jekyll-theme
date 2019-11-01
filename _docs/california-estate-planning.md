@@ -6,3 +6,6 @@ author:
 ---
 
 California estate planning info TBD
+
+<!-- Related Metros List -->
+{% include related-metros.html %}

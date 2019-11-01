@@ -6,3 +6,6 @@ author: john
 ---
 
 Florida estate planning info TBD
+
+<!-- Related Metros List -->
+{% include related-metros.html %}
