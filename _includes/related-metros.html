@@ -1,0 +1,13 @@
+<h3>Looking for an Estate Planning Attorney in {{ page.title }}?</h3>
+<p class="uk-text-lead uk-text-muted">Find the Top Estate Planning Attorneys in Your City or Metropolitan Area</p>
+{% for state in site.data.navigation_states %}
+  {% if  state.state == page.title %}
+  <ul>
+  {% for city in state.cities %}
+    {% assign city_param = city.city | prepend:"?city=" %}
+    {% assign metro_param = city.metro | prepend:"&metro=" %}
+    <li><a href="/estate-planning-attorneys/{{ city_param }}{{ metro_param }}">{{ city.city }}</a></li>
+  {% endfor %}
+  </ul>
+  {% endif %}
+{% endfor %}
