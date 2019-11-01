@@ -1,7 +1,7 @@
 ---
 title: What is a Will?
 subtitle: Disqus is a third party service that can be used to comment on blog posts. This document covers adding Disqus to a Jekyll blog
-categories: [Features]
+tags: [Wills & Trusts]
 author: john
 ---
 

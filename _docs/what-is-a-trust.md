@@ -1,8 +1,8 @@
 ---
 title: What is a Trust?
 subtitle: This document covers the setup and options of theme feature described in the doc title
+tags: [Wills & Trusts]
 author: sara
-tags: [setup]
 ---
 
 Submit the form and confirm your email address at [FormSpree](https://formspree.io/). Then add the following include to a page, replacing the email address:

@@ -1,8 +1,8 @@
 ---
 title: How Long is the Probate Process
 subtitle: This document covers the setup and options of theme feature described in the doc title
+tags: [Probate]
 author: john
-tags: [setup]
 ---
 
 Edit copyright notice in `_config.yml`:
