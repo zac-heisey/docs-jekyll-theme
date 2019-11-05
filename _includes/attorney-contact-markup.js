@@ -2,6 +2,8 @@
   // Contact Form
   '<form class="uk-form-stacked" method="POST" action="https://formspree.io/{{ include.email }}" accept-charset="UTF-8">' +
     '<div class="uk-margin-medium-bottom">' +
+      // Hidden field passing in Attorney email address
+      '<input name="attorney-email" type="hidden" value="' + attorney.email + '">' +
       '<label class="uk-form-label uk-margin-small-bottom" for="form-stacked-text">Your Name</label>' +
       '<div class="uk-form-controls">' +
         '<input class="uk-input uk-form-large uk-border-rounded" name="name" type="text" required>' +
