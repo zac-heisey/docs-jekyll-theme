@@ -1,7 +1,11 @@
 '<section id="practice-contact">' +
   // Contact Form
-  '<form class="uk-form-stacked" method="POST" action="https://formspree.io/{{ include.email }}" accept-charset="UTF-8">' +
+  '<form class="uk-form-stacked" method="POST" name="Attorney Contact Form" accept-charset="UTF-8" netlify-honeypot="bot-field" netlify>' +
     '<div class="uk-margin-medium-bottom">' +
+      // Netlify honeypot field
+      '<p class="hidden">' +
+        '<label>Don’t fill this out if you are human: <input name="bot-field" /></label>' +
+      '</p>' +
       // Hidden field passing in Attorney email address
       '<input name="attorney-email" type="hidden" value="' + attorney.email + '">' +
       '<label class="uk-form-label uk-margin-small-bottom" for="form-stacked-text">Your Name</label>' +
