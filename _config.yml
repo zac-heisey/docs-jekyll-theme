@@ -41,21 +41,27 @@ attorneys:
   alex:
     name: Alex Koch
     title: Estate Planning & Probate
-    avatar: avatar-alex.png
+    avatar: https://res.cloudinary.com/zheisey/image/upload/f_auto/v1571339214/EstateLawFAQs.com/headshots/placeholder.png
     location: Knoxville, TN
-    profile: /estate-planning-attorneys/tn/alex-koch
+    profile: /estate-planning-attorneys/
   daniel:
     name: Daniel Shultz
     title: Estate Planning Attorney
-    avatar: avatar-daniel.png
+    avatar: https://res.cloudinary.com/zheisey/image/upload/f_auto/v1571339214/EstateLawFAQs.com/headshots/placeholder.png
     location: Austin, TX
-    profile: /estate-planning-attorneys/tx/daniel-shultz
+    profile: /estate-planning-attorneys/
   tom:
     name: Tom Farrell
     title: Family Law Attorney
-    avatar: avatar-john.png
+    avatar: https://res.cloudinary.com/zheisey/image/upload/f_auto/v1571339214/EstateLawFAQs.com/headshots/placeholder.png
     location: San Francisco, CA
-    profile: /estate-planning-attorneys/ca/tom-farell
+    profile: /estate-planning-attorneys/
+  betsey:
+    name: Betsey Jane
+    title: Estate and Family Law
+    avatar: https://res.cloudinary.com/zheisey/image/upload/f_auto/v1571339214/EstateLawFAQs.com/headshots/placeholder.png
+    location: Birmingham, AL
+    profile: /estate-planning-attorneys/
 
 # Default footer image settings
 footer:

@@ -18,7 +18,7 @@ hero:
 {% include featured-states.html tag="featured" title="Estate Planning In..." subtitle="Learn About Estate Planning Laws in Your State" %}
 
 <!-- Featured Estate Law Attorneys -->
-{% include featured-attorneys.html attorneys="alex, daniel, tom" title="Hire an Estate Attorney" subtitle="Browse the Top Estate Planning Attorneys in Your Area" %}
+{% include featured-attorneys.html title="Hire an Estate Attorney" subtitle="Browse the Top Estate Planning Attorneys in Your Area" %}
 
 <!-- CTA -->
 {% include cta.html title="Didn't find an answer?" button_text="Contact Us" button_url="/contact/" subtitle="Get in touch with us for details on setup and additional custom services pricing" %}
