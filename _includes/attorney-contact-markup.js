@@ -1,6 +1,6 @@
 '<section id="practice-contact">' +
   // Contact Form
-  '<form class="uk-form-stacked" method="POST" name="Attorney Contact Form" accept-charset="UTF-8" netlify-honeypot="bot-field" netlify>' +
+  '<form class="uk-form-stacked" method="POST" name="Attorney Contact Form" accept-charset="UTF-8" netlify-honeypot="bot-field" data-netlify="true">' +
     '<div class="uk-margin-medium-bottom">' +
       // Netlify honeypot field
       '<p class="hidden">' +
