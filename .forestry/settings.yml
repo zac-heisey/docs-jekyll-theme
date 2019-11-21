@@ -6,19 +6,19 @@ webhook_url:
 sections:
 - type: jekyll-pages
   label: Pages
-  create: all
+  create: documents
 - type: jekyll-posts
   label: Posts
-  create: all
+  create: documents
 - type: directory
   path: _featured-faqs
   label: Featured faqs
-  create: all
+  create: documents
   match: "**/*"
 - type: directory
   path: _docs
   label: Docs
-  create: all
+  create: documents
   match: "**/*"
 upload_dir: uploads
 public_path: "/uploads"
