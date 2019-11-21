@@ -2,116 +2,251 @@
   cities:
     - city: Birmingham
       metro: birmingham-hoover
+    - city: Huntsville
+      metro: huntsville
+    - city: Mobile
+      metro: mobile
+    - city: Montgomery
+      metro: montgomery
+    - city: Tuscaloosa
+      metro: tuscaloosa
 
 - state: Alaska
   cities:
-    - city: TBD
-      metro: TBD
+    - city: Anchorage
+      metro: anchorage
+    - city: Fairbanks
+      metro: fairbanks
 
 - state: Arizona
   cities:
     - city: Phoenix
-      metro: phoenix-mesa-scottsdale
+      metro: phoenix-mesa-chandler
+    - city: Mesa
+      metro: phoenix-mesa-chandler
+    - city: Chandler
+      metro: phoenix-mesa-chandler
+    - city: Scottsdale
+      metro: phoenix-mesa-chandler
+    - city: Tucson
+      metro: tucson
 
 - state: Arkansas
   cities:
-    - city:
+    - city: Little Rock
+      metro: little-rock-conway
+    - city: Fayetteville
+      metro: fayetteville-springdale-rogers
+    - city: Jonesboro
+      metro: jonesboro
 
 - state: California
   cities:
-    - city:
+    - city: Los Angeles
+      metro: los-angeles-long-beach-anaheim
+    - city: Long Beach
+      metro: los-angeles-long-beach-anaheim
+    - city: Anaheim
+      metro: los-angeles-long-beach-anaheim
+    - city: San Francisco
+      metro: san-francisco-oakland-berkeley
+    - city: Oakland
+      metro: san-francisco-oakland-berkeley
+    - city: Riverside
+      metro: riverside-san-bernadino-ontario
+    - city: San Bernadino
+      metro: riverside-san-bernadino-ontario
+    - city: San Diego
+      metro: san-diego-chula-vista-carlsbad
+    - city: Sacramento
+      metro: sacramento-roseville-folsom
+    - city: Roseville
+      metro: sacramento-roseville-folsom
+    - city: San Jose
+      metro: san-jose-sunnyvale-santa-clara
+    - city: Fresno
+      metro: fresno
+    - city: Bakersfield
+      metro: bakersfield
+    - city: Oxnard
+      metro: oxnard-thousand-oaks-ventura
 
 - state: Colorado
   cities:
-    - city:
+    - city: Denver
+      metro: denver-lakewood-aurora
+    - city: Aurora
+      metro: denver-lakewood-aurora
+    - city: Colorado Spings
+      metro: colorado-springs
+    - city: Fort Collins
+      metro: fort-collins
+    - city: Boulder
+      metro: boulder
 
 - state: Connecticut
   cities:
-    - city:
+    - city: Hartford
+      metro: hartford-middletown
+    - city: Bridgeport
+      metro: bridgeport-stamford-norwalk
+    - city: Stamford
+      metro: bridgeport-stamford-norwalk
+    - city: New Haven
+      metro: new-haven-milford
 
 - state: Delaware
   cities:
-    - city:
+    - city: Dover
+      metro: dover
 
 - state: Florida
   cities:
-    - city:
+    - city: Miami
+      metro: miami-ft-lauderdale-pompano
+    - city: Fort Lauderdale
+      metro: miami-ft-lauderdale-pompano
+    - city: Tampa
+      metro: tampa-st-petersburg-clearwater
+    - city: Orlando
+      metro: orlando-kissimmee-sanford
+    - city: Jacksonville
+      metro: jacksonville
 
 - state: Georgia
   cities:
-    - city:
+    - city: Atlanta
+      metro: atlanta-sandy-springs-roswell
+    - city: Augusta
+      metro: augusta-richmond
+    - city: Savannah
+      metro: savannah
 
 - state: Hawaii
   cities:
-    - city:
+    - city: Honolulu
+      metro: honolulu
 
 - state: Idaho
   cities:
-    - city:
+    - city: Boise
+      metro: boise
 
 - state: Illinois
   cities:
-    - city:
+    - city: Chicago
+      metro: chicago-naperville-elgin
+    - city: Aurora
+      metro: chicago-naperville-elgin
 
 - state: Indiana
   cities:
-    - city:
+    - city: Indianapolis
+      metro: indianapolis-carmel-anderson
+    - city: Fort Wayne
+      metro: fort-wayne
 
 - state: Iowa
   cities:
-    - city:
+    - city: Des Moines
+      metro: des-moines
+    - city: Cedar Rapids
+      metro: cedar-rapids
 
 - state: Kansas
   cities:
-    - city:
+    - city: Wichita
+      metro: wichita
+    - city: Topeka
+      metro: topeka
+    - city: Lawrence
+      metro: lawrence
 
 - state: Kentucky
   cities:
-    - city:
+    - city: Louisville
+      metro: louisville-jefferson-county
+    - city: Lexington
+      metro: lexington-fayette
+    - city: Bowling Green
+      metro: bowling-green
 
 - state: Louisiana
   cities:
-    - city:
+    - city: New Orleans
+      metro: new-orleans-metairie
+    - city: Baton Rouge
+      metro: baton-rouge
+    - city: Lafayette
+      metro: lafayette
+    - city: Shreveport
+      metro: shreveport-bossier-city
 
 - state: Maine
   cities:
-    - city:
+    - city: Portland
+      metro: portland
 
 - state: Maryland
   cities:
-    - city:
+    - city: Baltimore
+      metro: baltimore-columbia-towson
 
 - state: Massachusetts
   cities:
-    - city:
+    - city: Boston
+      metro: boston-cambridge-newton
+    - city: Worcester
+      metro: worcester
+    - city: Springfield
+      metro: springfield-ma
 
 - state: Michigan
   cities:
-    - city:
+    - city: Detroit
+      metro: detroit-warren-dearborn
+    - city: Grand Rapids
+      metro: grand-rapids-kentwood
+    - city: Lansing
+      metro: lansing
 
 - state: Minnesota
   cities:
-    - city:
+    - city: Minneapolis
+      metro: minneapolis-st-paul-bloomington
+    - city: Saint Paul
+      metro: minneapolis-st-paul-bloomington
 
 - state: Mississippi
   cities:
-    - city:
+    - city: Jackson
+      metro: jackson
 
 - state: Missouri
   cities:
-    - city:
+    - city: Saint Louis
+      metro: st-louis
+    - city: Kansas City
+      metro: kansas-city
+    - city: Springfield
+      metro: springfield-mo
 
 - state: Montana
   cities:
-    - city:
+    - city: Billings
+      metro: billings
 
 - state: Nebraska
   cities:
-    - city:
+    - city: Omaha
+      metro: omaha-council-bluffs
+    - city: Lincoln
+      metro: lincoln
 
 - state: Nevada
   cities:
     - city:
+      metro:
 
 - state: New Hampshire
   cities:
@@ -183,7 +318,14 @@
 
 - state: Virginia
   cities:
-    - city:
+    - city: Washington DC
+      metro: washington-arlington-alexandria
+    - city: Arlington
+      metro: washington-arlington-alexandria
+    - city: Virginia Beach
+      metro: virginia-beach-norfolk
+    - city: Richmond
+      metro: richmond
 
 - state: Washington
   cities:
