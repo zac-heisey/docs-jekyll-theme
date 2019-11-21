@@ -1,0 +1,16 @@
+---
+label: Featured FAQ
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: textarea
+  name: subtitle
+  label: subtitle
+- type: list
+  name: tags
+  label: tags
+- type: text
+  name: author
+  label: author
