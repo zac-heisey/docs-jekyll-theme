@@ -2,6 +2,10 @@
 
 /* General Styles */
 
+html {
+  scroll-behavior: smooth;
+}
+
 #start-search-mobile {
   display: none;
 }
@@ -173,6 +177,14 @@
 
 
 /*== Media Queries ==*/
+
+@media screen and (prefers-reduced-motion: reduce) {
+
+	html {
+		scroll-behavior: auto;
+	}
+  
+}
 
 @media (max-width: 959px) {
 
