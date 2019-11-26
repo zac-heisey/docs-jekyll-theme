@@ -413,8 +413,6 @@
 
 - state: Virginia
   cities:
-    - city: Washington DC
-      metro: washington-arlington-alexandria
     - city: Arlington
       metro: washington-arlington-alexandria
     - city: Virginia Beach
@@ -455,4 +453,8 @@
   cities:
     - city: Cheyenne
       metro: cheyenne
-      
+
+- state: District of Columbia
+  cities:
+    - city: Washington DC
+      metro: washington-arlington-alexandria
