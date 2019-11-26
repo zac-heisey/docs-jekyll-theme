@@ -245,76 +245,171 @@
 
 - state: Nevada
   cities:
-    - city:
-      metro:
+    - city: Las Vegas
+      metro: las-vegas-henderson-paradise
+    - city: Reno
+      metro: reno
 
 - state: New Hampshire
   cities:
-    - city:
+    - city: Manchester
+      metro: manchester-nashua
+    - city: Nashua
+      metro: manchester-nashua
 
 - state: New Jersey
   cities:
-    - city:
+    - city: Trenton
+      metro: trenton-princeton
+    - city: Newark
+      metro: newark
+    - city: Jersey City
+      metro: jersey-city
 
 - state: New Mexico
   cities:
-    - city:
+    - city: Albuquerque
+      metro: albuquerque
+    - city: Las Cruces
+      metro: las-cruces
+    - city: Santa Fe
+      metro: santa-fe
 
 - state: New York
   cities:
-    - city:
+    - city: New York City
+      metro: new-york-city
+    - city: Buffalo
+      metro: buffalo-cheektowaga
+    - city: Rochester
+      metro: rochester
+    - city: Albany
+      metro: albany-schenectady-troy
+    - city: Syracuse
+      metro: syracuse
 
 - state: North Carolina
   cities:
-    - city:
+    - city: Charlotte
+      metro: charlotte-concord-gastonia
+    - city: Raleigh
+      metro: raleigh-cary
+    - city: Cary
+      metro: raleigh-cary
+    - city: Greensboro
+      metro: greensboro-highpoint
+    - city: Winston-Salem
+      metro: winston-salem
+    - city: Durham
+      metro: durham-chapel-hill
 
 - state: North Dakota
   cities:
-    - city:
+    - city: Fargo
+      metro: fargo
+    - city: Bismark
+      metro: bismark
 
 - state: Ohio
   cities:
-    - city:
+    - city: Cincinnati
+      metro: cincinnati
+    - city: Columbus
+      metro: columbus
+    - city: Cleveland
+      metro: cleveland-elyria
+    - city: Toledo
+      metro: toledo
+    - city: Akron
+      metro: akron
 
 - state: Oklahoma
   cities:
-    - city:
+    - city: Oklahoma City
+      metro: oklahoma-city
+    - city: Tulsa
+      metro: tulsa
 
 - state: Oregon
   cities:
-    - city:
+    - city: Portland
+      metro: portland-vancouver-hillsboro
+    - city: Salem
+      metro: salem
+    - city: Eugene
+      metro: eugene-springfield
 
 - state: Pennsylvania
   cities:
-    - city:
+    - city: Philadelphia
+      metro: philadelphia-camden-wilmington
+    - city: Pittsburgh
+      metro: pittsburgh
+    - city: Allentown
+      metro: allentown-bethlehem-easton
 
 - state: Rhode Island
   cities:
-    - city:
+    - city: Providence
+      metro: providence-warwick
 
 - state: South Carolina
   cities:
-    - city:
+    - city: Greenville
+      metro: greenville-anderson
+    - city: Columbia
+      metro: columbia
+    - city: Charleston
+      metro: charleston-sc
 
 - state: South Dakota
   cities:
-    - city:
+    - city: Sioux Falls
+      metro: sioux-falls
 
 - state: Tennessee
   cities:
-    - city:
+    - city: Nashville
+      metro: nashville-davidson-murfreesboro
+    - city: Memphis
+      metro: memphis
+    - city: Knoxville
+      metro: knoxville
+    - city: Chattanooga
+      metro: chattanooga
 
 - state: Texas
   cities:
-    - city:
+    - city: Dallas
+      metro: dallas-fort-worth-arlington
+    - city: Fort Worth
+      metro: dallas-fort-worth-arlington
+    - city: Arlington
+      metro: dallas-fort-worth-arlington
+    - city: Houston
+      metro: houston-woodlands-sugar-land
+    - city: San Antonio
+      metro: san-antonio-new-braunfels
+    - city: Austin
+      metro: austin-round-rock-georgetown
+    - city: El Paso
+      metro: el-paso
+    - city: Corpus Christi
+      metro: corpus-christi
 
 - state: Utah
   cities:
-    - city:
+    - city: Salt Lake City
+      metro: salt-lake-city
+    - city: Ogden
+      metro: ogden-clearfield
+    - city: Provo
+      metro: provo-orem
 
 - state: Vermont
   cities:
-    - city:
+    - city: Burlington
+      metro: burlington
 
 - state: Virginia
   cities:
@@ -329,16 +424,35 @@
 
 - state: Washington
   cities:
-    - city:
+    - city: Seattle
+      metro: seattle-tacoma-bellevue
+    - city: Tacoma
+      metro: seattle-tacoma-bellevue
+    - city: Bellevue
+      metro: seattle-tacoma-bellevue
+    - city: Spokane
+      metro: spokane
 
 - state: West Virginia
   cities:
-    - city:
+    - city: Charleston
+      metro: charleston-wv
+    - city: Huntington
+      metro: huntington-ashland
 
 - state: Wisconsin
   cities:
-    - city:
+    - city: Milwaukee
+      metro: milwaukee-waukesha
+    - city: Madison
+      metro: madison
+    - city: Green Bay
+      metro: green-bay
+    - city: Kenosha
+      metro: kenosha
 
 - state: Wyoming
   cities:
-    - city:
+    - city: Cheyenne
+      metro: cheyenne
+      
