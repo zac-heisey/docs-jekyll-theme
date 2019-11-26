@@ -100,6 +100,11 @@
     - city: Dover
       metro: dover
 
+- state: District of Columbia
+  cities:
+    - city: Washington DC
+      metro: washington-arlington-alexandria
+
 - state: Florida
   cities:
     - city: Miami
@@ -453,8 +458,3 @@
   cities:
     - city: Cheyenne
       metro: cheyenne
-
-- state: District of Columbia
-  cities:
-    - city: Washington DC
-      metro: washington-arlington-alexandria
