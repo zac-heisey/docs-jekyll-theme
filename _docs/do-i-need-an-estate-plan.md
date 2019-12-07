@@ -1,7 +1,7 @@
 ---
 title: Do I Need an Estate Plan?
 subtitle: Trying to determine if you need an estate plan? Learn more about estate
-  planning, wills, trusts, and more. Find and hirea qualified estate planning attorney
+  planning, wills, trusts, and more. Find and hire a qualified estate planning attorney
   near you.
 tags:
 - Estate Planning
