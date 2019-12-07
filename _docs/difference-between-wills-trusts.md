@@ -21,4 +21,4 @@ Another difference is that there are both revocable and irrevocable trusts. In t
 
 ## Which One Is Right for You?
 
-Choosing which option is right for you comes down to how you want your affairs to be settled and what types of assets your estate includes. EstateLawFAQs specializes in estate planning and can answer your questions to help you decide between a will and trust.
+Choosing which option is right for you comes down to how you want your affairs to be settled and what [types of assets your estate includes](/docs/what-is-included-in-an-estate-plan/). EstateLawFAQs specializes in estate planning information and can answer your questions to help you decide between a will and trust, [find an estate planning attorney](/estate-planning-attorneys/), and more.
