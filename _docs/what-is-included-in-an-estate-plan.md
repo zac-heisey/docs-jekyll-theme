@@ -7,7 +7,7 @@ tags:
 author: evan
 
 ---
-From wills and [trusts](/docs/what-is-a-trust/) to life insurance policies, guardianship and power of attorney, there are a number of estate planning tools available to help ensure your assets pass on to the right people in the event of your death or disability. Here are a few key components to consider when deciding how to distribute and manage finances, property and more.
+From wills and [trusts](/docs/what-is-a-trust/) to life insurance policies, guardianship and power of attorney, there are a number of [estate planning](/docs/what-is-estate-planning/) tools available to help ensure your assets pass on to the right people in the event of your death or disability. Here are a few key components to consider when deciding how to distribute and manage finances, property and more.
 
 ## Will and Trust in an Estate Plan
 
