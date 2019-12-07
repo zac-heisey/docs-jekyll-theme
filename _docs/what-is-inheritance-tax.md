@@ -1,6 +1,7 @@
 ---
 title: What is Inheritance Tax?
-subtitle: ''
+subtitle: Learn more about inheritance taxes in your state. Get answers to questions
+  about inheritance tax, how inheritance tax is determined, and more.
 tags:
 - Taxes
 author: sara
