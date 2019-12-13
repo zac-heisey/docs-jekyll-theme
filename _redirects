@@ -1,0 +1,3 @@
+### NETLIFY DEV DOMAIN REDIRECTS
+https://estatelawfaqs.netlify.com/*   https://www.estatelawfaqs.com/:splat    301!
+http://estatelawfaqs.netlify.com/*    https://www.estatelawfaqs.com/:splat    301!
