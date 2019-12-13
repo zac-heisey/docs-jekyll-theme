@@ -83,6 +83,9 @@ uploads: /uploads/
 markdown: kramdown
 highlighter: rouge
 
+include:
+- _redirects
+
 gems:
   - jekyll-feed
   - jekyll-seo-tag
